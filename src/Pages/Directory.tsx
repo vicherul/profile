@@ -1,7 +1,5 @@
-// ...existing code...
 import CardUser from "../components/CardUser/CardUser";
-import { useUser } from "../hooks/useUser";
-// ...existing code...
+import { useUser } from "../components/hooks/userUser";
 
 const Directory = () => {
   // Miren la belleza de usar nuestro Custom Hook
@@ -10,7 +8,7 @@ const Directory = () => {
     <div className="min-h-screen bg-slate-50 p-10">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl font-black text-slate-800 mb-8">
-          Diirectorio de Empleados
+          Directorio de Empleados
         </h1>
         {/* Renderizado Condicional 1: Cargando */}
         {loading && (
