@@ -1,14 +1,10 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
-import View from "./components/Pages/View";
+import Directory from "./Pages/Directory";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<View />}></Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <Directory />
+    </>
   );
 }
 
